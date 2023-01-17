@@ -8,7 +8,7 @@ const NewsLetter = () => {
         Subscribe to our newsletter
       </h3>
 
-      <div className="flex justify-center my-10">
+      <div className="flex flex-col md:flex-row justify-center my-10">
         <input
         className="p-2 px-4 rounded mr-2 md:mr-6"
         placeholder="Email"
@@ -17,7 +17,7 @@ const NewsLetter = () => {
             opacity: 0.5,
           }}
         />
-        <PrimaryButton className="px-8 text-lg" >Subscribe</PrimaryButton>
+        <PrimaryButton className="px-8 text-lg mt-4 md:mt-0" >Subscribe</PrimaryButton>
       </div>
     </section>
   );

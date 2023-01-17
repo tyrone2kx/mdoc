@@ -8,7 +8,7 @@ interface IProps {
 
 const ListItem = ({ description, isCheckmark }: IProps) => {
   return (
-    <div className='flex mb-4'>
+    <div className='flex items-start mb-4'>
         {!isCheckmark ? <BulletIcon /> : <CheckmarkIcon />}
         <p className='ml-4'>
             {description}

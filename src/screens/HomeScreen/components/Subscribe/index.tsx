@@ -7,15 +7,14 @@ import PrimaryButton from "components/PrimaryButton/PrimaryButton";
 
 const Subscribe = () => {
   return (
-    <section className="px-12 2xl:px-36 py-[150px] flex justify-center">
-      <div className="w-full 2xl:w-[80%] flex justify-center ">
-        <div className="hidden md:block w-[60%] 2xl:w-[40%]">
-          <div className="relative w-[431px]">
-            <img  alt="placeholder-pic" src={pic} />
-            <img  alt="placeholder-pic"
-              className="absolute bottom-[-80px] right-[-100px]"
-              src={satisfaction}
-            />
+    <section className="px-12 py-[150px] flex justify-center">
+      <div className="w-full 2xl:w-[80%] flex flex-col md:flex-row justify-between ">
+        <div className="md:block w-full md:w-[60%] 2xl:w-[40%] mb-10 md:mb-0">
+          <div className="relative w-fit">
+            <img alt="placeholder-pic" src={pic} />
+            <div className="absolute bottom-[-30px] right-[-20px] md:bottom-[-50px] md:right-[-40px] h-[120px]">
+              <img alt="placeholder-pic" src={satisfaction} className="h-full w-full" />
+            </div>
           </div>
           <div className="mt-8">
             <ListItem description={"Access to the CompleteHealth Platform"} />
@@ -27,7 +26,7 @@ const Subscribe = () => {
         </div>
 
         <div className="w-full md:w-[50%]">
-          <h2 className="text-[38px] text-darkBlue font-bold md:max-w-[90%]">
+          <h2 className="text-[28px] md:text-[38px] text-darkBlue font-bold md:max-w-[90%]">
             Subscribe for our{" "}
             <span className="text-primary">self-care plans</span> for your
             personal and employee health need
