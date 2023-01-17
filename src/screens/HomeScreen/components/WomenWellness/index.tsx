@@ -5,12 +5,12 @@ import womenwellness from "assets/images/womenwellness.png";
 const WomenWellness = () => {
   return (
     <section className="bg-offwhite px-12 pb-[150px]  pt-12 flex items-center justify-center">
-      <div className="flex flex-col-reverse md:flex-row items-center justify-around w-full 2xl:w-[80%]">
-      <div className="mt-10 md:mt-0">
-        <img  alt="placeholder-pic" src={womenwellness} />
+      <div className="flex flex-col-reverse md:flex-row items-center justify-around w-full 2xl:w-[70%]">
+      <div className="mt-10 md:mt-0 w-full md:w-[40%] flex justify-center">
+        <img  alt="placeholder-pic" src={womenwellness} className='max-w-full' />
       </div>
-      <div className="w-full md:w-[50%]">
-        <h2 className="text-darkBlue text-[38px] font-bold mb-6">
+      <div className="w-full md:w-[55%] lg:w-[50%]">
+        <h2 className="text-darkBlue text-[28px] lg:text-[38px] font-bold mb-6">
           Our <span className="text-primary">women's wellness</span> program
           enables you manage your health properly
         </h2>

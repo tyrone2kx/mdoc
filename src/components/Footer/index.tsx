@@ -10,10 +10,10 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-darkBlue p-[50px] md:p-[100px]">
+    <footer className="bg-darkBlue p-[40px] lg:p-[100px]">
       <div>
         <div className="flex flex-col md:flex-row justify-between">
-          <div className="mb-8 md:mb-0">
+          <div className="mb-8 md:mb-0 md:mx-2">
             <img src={mdoc} alt="logo" />
 
             <p className="text-white mt-8">
@@ -26,7 +26,7 @@ const Footer = () => {
             <p className="text-white">info@mymdoc.com</p>
           </div>
 
-          <div className="mb-8 md:mb-0">
+          <div className="mb-8 md:mb-0 md:mx-2">
             <h3 className="text-white uppercase font-bold">OUR APPROACH</h3>
 
             <p className="text-white mt-4 font-thin">Businesses</p>
@@ -35,7 +35,7 @@ const Footer = () => {
             <p className="text-white mt-4 font-thin">Outcomes</p>
           </div>
 
-          <div className="mb-8 md:mb-0">
+          <div className="mb-8 md:mb-0 md:mx-2">
             <h3 className="text-white uppercase font-bold">Programs</h3>
 
             <p className="text-white mt-4 font-thin">Diabetes</p>
@@ -45,7 +45,7 @@ const Footer = () => {
             <p className="text-white mt-4 font-thin">Behavioral Health</p>
           </div>
 
-          <div className="mb-8 md:mb-0">
+          <div className="mb-8 md:mb-0 md:mx-2">
             <h3 className="text-white uppercase font-bold">Company</h3>
 
             <p className="text-white mt-4 font-thin">About</p>
@@ -56,7 +56,7 @@ const Footer = () => {
             <p className="text-white mt-4 font-thin">Press</p>
           </div>
 
-          <div className="mb-8 md:mb-0">
+          <div className="mb-8 md:mb-0 md:mx-2">
             <h3 className="text-white uppercase font-bold">Legal</h3>
 
             <p className="text-white mt-4 font-thin">Privacy policy</p>

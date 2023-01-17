@@ -1,4 +1,3 @@
-import React from "react";
 import merck from "assets/images/merck.png";
 import mit from "assets/images/mit.png";
 import boehringer from "assets/images/boehringer.png";
@@ -16,7 +15,7 @@ const Partners = () => {
   return (
     <section className="p-12 py-[100px]">
       <div className="flex justify-center">
-        <h3 className="text-darkBlue text-[28px] text-center font-bold md:max-w-[50%]">
+        <h3 className="text-darkBlue text-[28px] text-center font-bold lg:max-w-[50%]">
           We have strong business recognition and partnerships across the world.
         </h3>
       </div>

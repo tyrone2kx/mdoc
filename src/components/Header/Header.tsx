@@ -14,7 +14,7 @@ const Header = () => {
           <img className="h-full w-full" src={logo} alt="placeholder-pic" />
         </div>
 
-        <div className="md:flex hidden w-[60%] items-center">
+        <div className="lg:flex hidden w-[60%] items-center">
           <MenuItem title="About Us" isDropdown />
           <MenuItem title="Resources" isDropdown />
           <MenuItem title="Self-care plans" />

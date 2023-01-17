@@ -7,7 +7,7 @@ const Hero = () => {
     <section>
       <section className="px-12 pt-12 2xl:px-36 pb-10 bg-lightGreen">
         <div className="mb-8 md:w-[60%] lg:w-[50%] xl:w-[50%] 2xl:w-[40%]">
-          <h1 className="text-darkBlue text-[32px] md:text-[72px] font-bold">
+          <h1 className="text-darkBlue text-[32px] md:text-[40px] lg:text-[72px] font-bold">
             Your <span className="text-primary">health in your hands</span>.
             Anytime, anywhere!
           </h1>

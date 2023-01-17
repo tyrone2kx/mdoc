@@ -1,11 +1,11 @@
 import { HomeIcon, NaviHealthIcon, TeleIcon, UserIcon } from "assets/icons";
 import Card from "./Card";
-import approach from 'assets/images/approach.png'
+import approach from "assets/images/approach.png";
 
 const Approach = () => {
   return (
     <section className="px-12 py-[70px] bg-offwhite flex items-center justify-center">
-      <div className="w-full md:w-[70%] max-w-[950px]">
+      <div className="w-full md:w-[95%] lg:w-[70%] ">
         <div className="mb-12">
           <h2 className="text-darkBlue font-bold text-[38px] text-center">
             mDoc self-care{" "}
@@ -17,13 +17,14 @@ const Approach = () => {
           </p>
         </div>
 
-        <div className="relative">
+        <div className="relative ">
           <div className="flex flex-col md:flex-row justify-between items-center md:mb-[100px]">
             <Card
               icon={<UserIcon />}
               text={
                 <>
-                  Virtual coaches and digital nudges through <b>CompleteHealth™</b>
+                  Virtual coaches and digital nudges through{" "}
+                  <b>CompleteHealth™</b>
                 </>
               }
             />
@@ -56,9 +57,16 @@ const Approach = () => {
               }
             />
           </div>
-          
 
-          <img className="hidden md:block absolute top-[15%] right-[22%]" alt="placeholder-pic" src={approach} />
+          <div
+              className="hidden md:flex items-center justify-center absolute top-[12.5%] md:right-[22.5%]  h-[75%] w-[55%]">
+            <img
+            className=" w-full"
+              alt="placeholder-pic"
+              src={approach}
+            />
+          </div>
+
         </div>
       </div>
     </section>

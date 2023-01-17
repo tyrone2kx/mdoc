@@ -3,13 +3,13 @@ import who from "assets/images/who.png";
 
 const Projects = () => {
   return (
-    <section>
-      <div className="p-12 flex flex-col items-center">
+    <section className="flex justify-center">
+      <div className="p-12 flex flex-col items-center w-full 2xl:w-[70%]">
         <h3 className="font-bold text-[28px] md:text-[48px] text-center text-darkBlue">
           Partnership-based projects
         </h3>
 
-        <div className=" flex flex-wrap justify-center md:justify-between mt-8 w-full max-w-[1400px]">
+        <div className=" flex flex-wrap justify-center md:justify-between mt-8 w-full ">
           <Card
             title="RICOM 3"
             description={`The RICOM3 project is centered on empowering women of reproductive
@@ -24,9 +24,6 @@ const Projects = () => {
             title="Roche"
             description={`The Roche Patient Support Programme was created to improve access to medicines and access to self-care support for people living with cancer.`}
           />
-        </div>
-
-        <div className=" flex flex-wrap mt-8  justify-center md:justify-between w-full max-w-[1400px]">
           <Card
             title="Rupe Flexi Health"
             description={`Rupe Flexi Health is a financing mechanism for people diagnosed with breast cancer to afford their cancer treatment via a loan product. `}
@@ -53,6 +50,9 @@ const Projects = () => {
               state of quality in the Nigerian Health System.
             </p>
           </div>
+        </div>
+
+        <div className=" flex flex-wrap mt-8  justify-center md:justify-between w-full max-w-[1400px]">
         </div>
       </div>
     </section>
