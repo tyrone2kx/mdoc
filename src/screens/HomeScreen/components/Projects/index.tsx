@@ -4,7 +4,7 @@ import who from "assets/images/who.png";
 const Projects = () => {
   return (
     <section className="flex justify-center">
-      <div className="p-12 flex flex-col items-center w-full 2xl:w-[70%]">
+      <div className="p-12 flex flex-col items-center w-full 2xl:w-[80%]">
         <h3 className="font-bold text-[28px] md:text-[48px] text-center text-darkBlue">
           Partnership-based projects
         </h3>

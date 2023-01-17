@@ -5,7 +5,7 @@ import approach from "assets/images/approach.png";
 const Approach = () => {
   return (
     <section className="px-12 py-[70px] bg-offwhite flex items-center justify-center">
-      <div className="w-full md:w-[95%] lg:w-[70%] ">
+      <div className="w-full md:w-[95%] lg:w-[70%] flex flex-col items-center">
         <div className="mb-12">
           <h2 className="text-darkBlue font-bold text-[38px] text-center">
             mDoc self-care{" "}
@@ -17,7 +17,7 @@ const Approach = () => {
           </p>
         </div>
 
-        <div className="relative ">
+        <div className="relative w-full 2xl:max-w-7xl">
           <div className="flex flex-col md:flex-row justify-between items-center md:mb-[100px]">
             <Card
               icon={<UserIcon />}
@@ -58,15 +58,9 @@ const Approach = () => {
             />
           </div>
 
-          <div
-              className="hidden md:flex items-center justify-center absolute top-[12.5%] md:right-[22.5%]  h-[75%] w-[55%]">
-            <img
-            className=" w-full"
-              alt="placeholder-pic"
-              src={approach}
-            />
+          <div className="hidden md:flex items-center justify-center absolute top-[12.5%] md:right-[22.5%]  h-[75%] w-[55%]">
+            <img className=" w-full" alt="placeholder-pic" src={approach} />
           </div>
-
         </div>
       </div>
     </section>

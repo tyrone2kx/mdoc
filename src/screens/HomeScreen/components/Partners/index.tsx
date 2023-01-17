@@ -21,24 +21,48 @@ const Partners = () => {
       </div>
 
       <div className="flex justify-center mt-12">
-        <div className="w-[80%] flex flex-wrap justify-between">
-          <img  alt="placeholder-pic" className="m-4" src={merck} />
-          <img  alt="placeholder-pic" className="m-4" src={mit} />
-          <img  alt="placeholder-pic" className="m-4" src={boehringer} />
-          <img  alt="placeholder-pic" className="m-4" src={usaid} />
-          <img  alt="placeholder-pic" className="m-4" src={google} />
-          <img  alt="placeholder-pic" className="m-4" src={covid} />
+        <div className="w-[80%] flex flex-col md:flex-row flex-wrap justify-between items-center">
+          <div>
+            <img alt="placeholder-pic" className="m-4" src={merck} />
+          </div>
+          <div>
+            <img alt="placeholder-pic" className="m-4" src={mit} />
+          </div>
+          <div>
+            <img alt="placeholder-pic" className="m-4" src={boehringer} />
+          </div>
+          <div>
+            <img alt="placeholder-pic" className="m-4" src={usaid} />
+          </div>
+          <div>
+            <img alt="placeholder-pic" className="m-4" src={google} />
+          </div>
+          <div>
+            <img alt="placeholder-pic" className="m-4" src={covid} />
+          </div>
         </div>
       </div>
 
       <div className="flex justify-center my-8">
-        <div className="w-[80%] flex flex-wrap justify-between">
-          <img  alt="placeholder-pic" className="m-4" src={echo} />
-          <img  alt="placeholder-pic" className="m-4" src={janssen} />
-          <img  alt="placeholder-pic" className="m-4" src={who} />
-          <img  alt="placeholder-pic" className="m-4" src={hla} />
-          <img  alt="placeholder-pic" className="m-4" src={cchub} />
-          <img  alt="placeholder-pic" className="m-4" src={jacaranda} />
+        <div className="w-[80%] flex flex-col md:flex-row flex-wrap justify-between items-center">
+          <div>
+            <img alt="placeholder-pic" className="m-4" src={echo} />
+          </div>
+          <div>
+            <img alt="placeholder-pic" className="m-4" src={janssen} />
+          </div>
+          <div>
+            <img alt="placeholder-pic" className="m-4" src={who} />
+          </div>
+          <div>
+            <img alt="placeholder-pic" className="m-4" src={hla} />
+          </div>
+          <div>
+            <img alt="placeholder-pic" className="m-4" src={cchub} />
+          </div>
+          <div>
+            <img alt="placeholder-pic" className="m-4" src={jacaranda} />
+          </div>
         </div>
       </div>
     </section>
