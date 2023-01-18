@@ -8,7 +8,7 @@ import PrimaryButton from "components/PrimaryButton/PrimaryButton";
 const Subscribe = () => {
   return (
     <section className="px-12 py-[150px] flex justify-center">
-      <div className="w-full 2xl:w-[70%] flex flex-col md:flex-row justify-between lg:justify-center ">
+      <div className="w-full 2xl:w-[80%] flex flex-col md:flex-row justify-between lg:justify-center ">
         <div className="flex flex-col items-center md:block w-full md:w-[50%] lg:w-[40%] mb-10 md:mb-0">
           <div className="relative w-fit">
             <div>
